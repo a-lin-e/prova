@@ -1,0 +1,15 @@
+lista_respostas = []
+
+while (True):    
+    animal = input("Você prefere cachorro (1), gato (2) ou coelho (3)")
+    sexo = input("informe o sexo: (M, F)")
+    idade = input("Quantos anos você tem?")
+    
+    
+    lista_respostas.append([animal, sexo, idade])
+    
+
+    if (input("Deseja continuar? (S, N)") != "S"):
+        break
+    
+print(lista_respostas)
